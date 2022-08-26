@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="normal/base::layout(~{::section})">
+<head>
+<meta charset="UTF-8" />
+<title>User Settings</title>
+</head>
+<body>
+	<section>
+
+		<div class="container">
+
+			<div class="card mr-3">
+
+				<div class="card-body my-5">
+
+					<div class="container text-center">
+
+						<img src="" style="height: 200px; width: 200px;"
+							class="my_profile_picture" th:src="@{'/img/setting_logo.png'}"
+							alt="profile photo" />
+
+					</div>
+					
+					<h1 class="text-center mt-3 text-secondary font-italic font-weight-light">
+						...SettingS...
+					</h1>
+					
+					<!-- Add Your Settings Here -->
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+</body>
+</html>
